@@ -3,6 +3,7 @@
     booktitle={IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)}, 
     title={Fulfilling Industrial Needs for Consistency Among Engineering Artifacts}, 
     year={2023},
+    abstract={Maintaining the consistency of engineering artifacts is a challenge faced by several engineering companies. This is more evident when the engineering artifacts are created using different tools and have different formats. This is the context of a company that builds agricultural machines, where components are developed using a decentralized iterative process. In this study, we present an approach developed in collaboration with an industry partner to address the issues and requirements of a real engineering scenario. These issues include the manual execution of consistency checking, without guidelines that formalize the activity. Furthermore, the industry partner aims at a flexible solution that can be applied without disrupting the current development process significantly. The proposed approach applies consistency rules (CR) defined to automatically detect and provide inconsistency feedback to engineers in real-time. The approach presented in this work also allows the customization of the CRs, giving flexibility to how the consistency checking is applied. The feasibility of our approach is demonstrated in such an industrial scenario, with a discussion about how the issues were addressed and the limitations of the current solution. We also perform a scalability evaluation showing that the approach can be applied in large systems (up to 21,061 elements) in a reasonable amount of time, taking less than 0.25 milliseconds to apply a CR, in the worst cases.},
     pages={246-257},
     keywords={Industries;Scalability;Collaboration;Companies;Manuals;Maintenance engineering;Real-time systems;Model-Driven Engineering;Consistency checking;Trace generation;Consistency flexibility},
     doi={10.1109/ICSE-SEIP58684.2023.00028}
@@ -15,6 +16,19 @@
   volume = {22},
   number = {2},
   issn = {1660-1769},
+  abstract={Collaborative model-driven engineering infrastructures are used to concurrently deal with models from diverse
+engineering domains. However, studies within the industry have shown that existing infrastructures often offer insufficient
+collaborative support or do not incorporate features to handle multiple engineering domains, which leads to inefficient collab-
+oration and reduced team productivity. In this paper, we propose a flexible operation-based infrastructure for collaborative
+model-driven engineering that addresses these issues. The infrastructure supports lock-free collaboration within co-existing
+metamodels of different domains. It also allows engineers to arbitrarily push or pull changes of divergent versions and to deal
+with appearing conflicts. To achieve those functionalities, the infrastructure relies on operations that represent atomic changes
+on our simplified version of the Meta-Object Facility, such as creating and deleting new types, instances, or modifying properties.
+The infrastructure manages those operations within a tree-like structure that grows incrementally. Sequences of operations,
+going from the root to a leaf, represent different versions of a complete model history (including metamodels). Model versions
+can be merged by concatenating their corresponding branches and handling occurring conflicts. We evaluated the infrastructure
+by applying it in practical scenarios in collaboration with an industrial partner. These scenarios demonstrate the feasibility of our
+infrastructure by complying with our derived requirements for collaborative model-driven engineering infrastructures.},
   year = {2023},
   note = {The 19th European Conference on Modelling Foundations and Applications (ECMFA 2023)},
   pages = {2:1-14},
@@ -49,7 +63,6 @@
   pages = {250–254},
   numpages = {5},
   keywords = {software product line, inconsistency repair, consistency checking, code smells},
-  location = {Graz, Austria},
   series = {SPLC '22}
 }
 
@@ -57,6 +70,7 @@
   title={Using reactive links to propagate changes across engineering models},
   author={Ratiu, Cosmina-Cristina and Assunção, Wesley KG and Herac, Edvin and Haas, Rainer and Lauwerys, Christophe and Egyed, Alexander},
   booktitle={Software and Systems Modeling},
+  abstract = {Collaborative model-driven development is a de facto practice to create software-intensive systems in several domains (e.g., aerospace, automotive, and robotics). However, when multiple engineers work concurrently, keeping all model artifacts synchronized and consistent is difficult. This is even harder when the engineering process relies on a myriad of tools and domains (e.g., mechanic, electronic, and software). Existing work tries to solve this issue from different perspectives, such as using trace links between different artifacts or computing change propagation paths. However, these solutions mainly provide additional information to engineers, still requiring manual work for propagating changes. Yet, most modeling tools are limited regarding the traceability between different domains, while also lacking the efficiency and granularity required during the development of software-intensive systems. Motivated by these limitations, in this work, we present a solution based on what we call “reactive links”, which are highly granular trace links that propagate change between property values across models in different domains, managed in different tools. Differently from traditional “passive links”, reactive links automatically propagate changes when engineers modify models, assuring the synchronization and consistency of the artifacts. The feasibility, performance, and flexibility of our solution were evaluated in three practical scenarios, from two partner organizations. Our solution is able to resolve all cases in which change propagation among models were required. We observed a great improvement of efficiency when compared to the same propagation if done manually. The contribution of this work is to enhance the engineering of software-intensive systems by reducing the burden of manually keeping models synchronized and avoiding inconsistencies that potentially can originate from collaborative engineering in a variety of tool from different domains.},
   pages={1-27},
   year={2024},
   publisher={Springer}
@@ -66,6 +80,33 @@
   title={Exploring Dependencies Among Inconsistencies to Enhance the Consistency Maintenance of Models},
   author={Marchezan, Luciano and Assunção, Wesley KG and Herac, Edvin and Shafiq, Saad and Egyed, Alexander},
   year={2024},
+  abstract={Consistency maintenance is paramount for software
+engineering, as it improves/guarantees the quality of artifacts
+(e.g., models) during maintenance and evolution. To perform
+this maintenance, consistency rules (CR) are commonly defined
+and applied to evaluate model elements according to desired
+properties. By empirical studies, it is known that CRs commonly
+evaluate similar model elements (e.g., multiple CRs checking the
+consistency of a UML class). Thus, we hypothesize that CRs can
+be used as a means to identify dependencies among inconsis-
+tencies and support consistency maintenance tasks. Currently,
+however, no study investigates to what extent dependencies can
+be identified and how they can be used to repair inconsistencies.
+In this paper, we explore dependencies between CRs to identify
+and group dependent inconsistencies. For that, we define a
+metamodel that allows dependencies to be expressed. Further-
+more, we propose a consistency maintenance and dependency
+analysis mechanism that uses such a metamodel. Additionally, the
+approach generates repairs for the inconsistencies, considering
+the groups of dependencies to identify overlapping and conflicting
+repairs. To evaluate the approach, we conducted an empirical
+study with 48 UML models and 27 CRs. The results show that our
+approach identifies dependencies between inconsistencies (46%
+of the inconsistencies have dependencies), within a reasonable
+time, 10ms on average in the worst case. Results also show that
+dependent inconsistencies can be grouped and used together to
+identify repairs that are either overlapping (26% on average) or
+conflicting (58% on average).}
   booktitle = {IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)},
 }
 
@@ -77,6 +118,7 @@
   number = {2},
   issn = {1660-1769},
   year = {2024},
+  abstract={Collaborative Model-driven Software Engineering (CoMDSE) involves multiple engineers working together on modifying domain-specific models. This collaborative effort, however, can lead to conflicts during merges due to differing perspectives and goals among engineers. Solutions primarily focus on resolving conflicts during merges, but these approaches can be cumbersome and time-intensive. Thus, researchers also propose secondary strategies such as change awareness to notify engineers of each other’s model changes mitigating conflicts before they happen. Change awareness strategies, however, often overwhelm engineers with a bulk of change notifications, many of which are irrelevant to their immediate tasks. Additionally, they are required to manually analyze these notifications for conflicts, which adds significant overhead, leading to decreased productivity and increased frustration. Thus, in this paper, we propose a novel approach for conflict-based change awareness. It utilizes an incremental growing operation tree data structure to promptly detect potential conflicts after a model change. It specifically targets conflicts detectable through the analysis of changes in property-value based models, such as syntactic conflicts. The obtained results are utilized to filter corresponding change notifications, which are then sent to the engineers. This empowers engineers to proactively identify and address conflicts before merging their work. Moreover, by filtering out irrelevant or non-critical notifications, engineers can focus their attention on changes that are most relevant to their work, reducing cognitive overload and improving efficiency, as demonstrated by related work. With this approach, we aim to enhance collaboration and productivity in CoMDSE environments. We evaluate the completeness of our approach by applying it to a variety of conflict scenarios, as defined by the EMFCompare completeness tests. We also apply our approach in a feasibility CoMDSE scenario using Visio to test the conflict-based notifications. Lastly, we evaluate our approach’s performance evidencing that it can detect a large number of conflicts in a reasonable time as it detected almost 20K conflicts in less than 20 seconds.}
   note = {The 20th European Conference on Modelling Foundations and Applications (ECMFA 2024)},
   pages = {2:1-14},
   doi = {10.5381/jot.2023.22.2.a5},

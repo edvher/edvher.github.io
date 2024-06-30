@@ -15,12 +15,9 @@
       institution: Johannes Kepler University Linz
       year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Collaboration Management
+        - Conflict Detection & Resolution.
+
     - title: Dipl.-Ing.
       institution: Johannes Kepler University Linz
       year: 2021
@@ -59,34 +56,25 @@
     - title: Software Engineer
       institution: Progresys M&E GmbH
       year: 2015
-      description:
-        - Part-time
 
     - title: Software Engineer
       institution: Primetals Technologies
       year: 2015
-      description:
-        - Part-time
-
-    - title: Software Engineer
-      institution: CADADAPT GmbH
-      year: 2012
-      description:
-        - Part-time
     
     - title: Software Engineer
       institution: Siemens VAI Metals Technologies GmbH
       year: 2013
-      description:
-        - Part-time
+
+    - title: Software Engineer
+      institution: CADADAPT GmbH
+      year: 2012
 
     - title: Software Developer
       institution: prosigma Software Development GmbH
       year: 2009
-      description:
-        - Part-time
 
-- title: Other Interests
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Karate, Social dance
+    - Karate
+    - Social dance
