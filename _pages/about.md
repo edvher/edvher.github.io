@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Solution Architect and Senior Software Engineer with over a decade of experience in the software engineering landscape, specializing in ERP, PDM, CAD systems, and cutting-edge collaboration software. I hold a Bachelor's and Master's in Computer Science and am currently pursuing a PhD. My professional journey has led me to work with tech companies where I spearheaded the development of scalable software solutions, optimized system performance, and led cross-functional teams.
+Senior Solution Architect and Software Engineer with over a decade of experience in the software engineering landscape, specializing in ERP, PDM, CAD systems, and cutting-edge collaboration software. I hold a Bachelor's and Master's in Computer Science and am currently pursuing a PhD. My professional journey has led me to work with tech companies where I spearheaded the development of scalable software solutions, optimized system performance, and led cross-functional teams.
 
 My expertise lies in model-based software systems, collaboration, conflict resolution, and handling inconsistencies. I am proficient in various programming languages including Python, Java, C#, and C++, and have a deep understanding of software architecture and design patterns. 
 
