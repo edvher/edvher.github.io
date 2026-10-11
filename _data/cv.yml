@@ -41,15 +41,23 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Team Lead - IT Solution Architect
+      institution: Primetals Technologies
+      year: Jan 2026 - Present
+  
+    - title: IT Product Manager - CAD/PLM
+      institution: Primetals Technologies
+      year: Sep 2025 - Jan 2026
+  
     - title: Computer Scientist
       institution: Johannes Kepler University Linz
       year: 2021 - Present
 
-    - title: CIO - Lead Solution Architect
+    - title: Head of IT
       institution: Progresys M&E GmbH
       year: 2020
 
-    - title: Senior Software Engineer - Solution Architect
+    - title: Senior Software Engineer
       institution: Progresys M&E GmbH
       year: 2018
 

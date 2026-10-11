@@ -15,8 +15,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Senior Software Engineer with over a decade of experience in the software engineering landscape, specializing in ERP, PDM, CAD systems, and cutting-edge collaboration software. I hold a Bachelor's and Master's in Computer Science and am currently pursuing a PhD. My professional journey has led me to work with tech companies where I spearheaded the development of scalable software solutions, optimized system performance, and led cross-functional teams.
+I am an IT Solution Architect and Team Lead in IT Product Management, working at the intersection of enterprise IT, engineering systems, and AI integration.
 
-My expertise lies in model-based software systems, collaboration, conflict resolution, and handling inconsistencies. I am proficient in various programming languages including Python, Java, C#, and C++, and have a deep understanding of software architecture and design patterns. 
+In my current role, I lead a team of IT Product Managers responsible for engineering and project management tools within a complex enterprise IT landscape. My work spans solution architecture, IT product management, system integration, technical strategy, and the coordination of business, engineering, and IT stakeholders.
+A growing focus of my work is the integration of AI into enterprise and engineering environments. I work on AI architectures and use cases that connect large language models with existing systems, engineering data, documents, and business processes, with particular attention to system integration, data access, security, and reliable enterprise deployment.
 
-Beyond technical skills, I am a published author in several journals and have presented at international conferences, sharing insights on advanced software engineering practices. I am passionate about leveraging my skills to drive innovation, improve system efficiency, and mentor the next generation of software engineers.
+My technical foundation comes from more than a decade in software engineering across ERP, PDM, CAD, collaboration systems, and custom software development. I have extensive experience with software architecture and development using technologies including C#, Java, Python, and C++.
+
+I hold Bachelor's and Master's degrees in Computer Science and have conducted doctoral research in model driven engineering, focusing on collaboration, conflict detection, and consistency management. This work has resulted in peer reviewed publications and presentations at international conferences.
+
+Today, my focus is on connecting architecture, AI, product management, and engineering: understanding complex IT landscapes, designing sustainable solutions, and translating emerging technologies into practical enterprise applications.
